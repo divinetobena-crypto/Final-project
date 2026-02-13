@@ -5,7 +5,7 @@
 #### By *Divine Tobenna Udeze*
 
 ## Description
-It's a webpage that shows different types of triangles and what they look like.
+Divine's Kicks is a webpage that showcases a wide variety of good quality sneakers at affordable prices.
 
 ## Installation
 You use git clone to be able to download the documents in the GitHub
@@ -15,12 +15,12 @@ Git
 
 ### Installation instruction
 ```
-Git clone https://github.com/hamida-mstafa/Triangle-tracker.git
+Git clone 
 
 ```
 
 # Live Link
-[Git](gh-pages link)
+[Git](https://github.com/divinetobena-crypto/Final-project.git)
 
 ## Technologies used
 HTML
