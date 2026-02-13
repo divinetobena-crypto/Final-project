@@ -8,14 +8,14 @@ const products = [
 },
 { name: "Adidas Ultraboost 22", 
     price: 8000,
-image:""
+image:"images/adidas ultraboost 22.jpeg"
 },
 { name: "Puma RS-X",
      price: 7200,
     image:"images/Pumas RS-X.jpeg"
     },
 { name: "Jordan 1 Retro High", 
-    price: 9500 
+    price: 9500, 
 image:"images/jordan 1 retro hight .jpeg"
 },
 { name: "New Balance 550", 
@@ -127,7 +127,7 @@ const card = document.createElement("div");
 card.classList.add("product-card");
 
 card.innerHTML = `
-<img src="https://via.placeholder.com/300x200" alt="${product.name}">
+<img src="${product.image}" alt="${product.name}">
 <h3>${product.name}</h3>
 <p>Ksh ${product.price}</p>
 <button class="add-to-cart"
