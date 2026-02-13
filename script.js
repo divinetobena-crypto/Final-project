@@ -1,6 +1,6 @@
-// ==========================
+
 // PRODUCT LIST (26 Shoes)
-// ==========================
+
 const products = [
 { name: "Nike Air Max 90",
      price: 7500,
