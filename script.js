@@ -2,32 +2,110 @@
 // PRODUCT LIST (26 Shoes)
 // ==========================
 const products = [
-{ name: "Nike Air Max 90", price: 7500 },
-{ name: "Adidas Ultraboost 22", price: 8000 },
-{ name: "Puma RS-X", price: 7200 },
-{ name: "Jordan 1 Retro High", price: 9500 },
-{ name: "New Balance 550", price: 7800 },
-{ name: "Converse Chuck 70", price: 6000 },
-{ name: "Nike Dunk Low", price: 8500 },
-{ name: "Adidas NMD R1", price: 7700 },
-{ name: "Vans Old Skool", price: 5500 },
-{ name: "Reebok Classic Leather", price: 6200 },
-{ name: "Fila Disruptor II", price: 5800 },
-{ name: "Asics Gel-Kayano", price: 8300 },
-{ name: "Nike Air Force 1", price: 9000 },
-{ name: "Adidas Superstar", price: 7000 },
-{ name: "Puma Suede Classic", price: 6400 },
-{ name: "Under Armour HOVR", price: 8200 },
-{ name: "Balenciaga Triple S", price: 15000 },
-{ name: "Yeezy Boost 350", price: 12000 },
-{ name: "Jordan 4 Retro", price: 11000 },
-{ name: "Nike Blazer Mid", price: 6800 },
-{ name: "Adidas Gazelle", price: 6900 },
-{ name: "New Balance 327", price: 7600 },
-{ name: "Converse Run Star", price: 7400 },
-{ name: "Vans Sk8-Hi", price: 6300 },
-{ name: "Reebok Zig Kinetica", price: 8100 },
-{ name: "Nike React Infinity", price: 8800 }
+{ name: "Nike Air Max 90",
+     price: 7500,
+    image: "images/nike air max 90.jpeg"
+},
+{ name: "Adidas Ultraboost 22", 
+    price: 8000,
+image:""
+},
+{ name: "Puma RS-X",
+     price: 7200,
+    image:"images/Pumas RS-X.jpeg"
+    },
+{ name: "Jordan 1 Retro High", 
+    price: 9500 
+image:"images/jordan 1 retro hight .jpeg"
+},
+{ name: "New Balance 550", 
+    price: 7800,
+image:"images/new balance 550.jpeg"
+},
+{ name: "Converse Chuck 70",
+     price: 6000,
+    image:"images/converse chuck 70.jpeg"
+    },
+{ name: "Nike Dunk Low", 
+    price: 8500,
+image:"images/nike dunk low.jpeg"
+},
+{ name: "Adidas NMD R1",
+     price: 7700,
+    image:"images/adidas NMD R1.jpeg"
+    },
+{ name: "Vans Old Skool", 
+    price: 5500,
+image:"images/Vans Old Skool.jpeg"
+},
+{ name: "Reebok Classic Leather",
+     price: 6200,
+    image:"images/reebook classic leather.jpeg"
+    },
+{ name: "Fila Disruptor II",
+     price: 5800,
+    image:"images/fila disruptor.jpeg"
+    },
+{ name: "Asics Gel-Kayano", 
+    price: 8300,
+image:"images/Asics gel kayano.jpeg"
+},
+{ name: "Nike Air Force 1",
+     price: 9000,
+    image:"images/nike air force one.jpeg"
+    },
+{ name: "Adidas Superstar",
+     price: 7000,
+    image:"images/adidas superstar.jpeg"
+    },
+{ name: "Puma Suede Classic",
+     price: 6400,
+    image:"images/puma suede classic.jpeg"
+    },
+{ name: "Under Armour HOVR", 
+    price: 8200,
+image:"images/Under Armour HOVR.jpeg"
+},
+{ name: "Balenciaga Triple S",
+     price: 15000,
+    image:"images/balenciaga triple s.jpeg"
+    },
+{ name: "Yeezy Boost 350", 
+    price: 12000,
+image:"images/yeezy boost 350.jpeg"
+},
+{ name: "Jordan 4 Retro",
+     price: 11000,
+    image:"images/jordan 4 retro.jpeg"
+    },
+{ name: "Nike Blazer Mid", 
+    price: 6800,
+image:"images/nike blazer mid.jpeg"
+},
+{ name: "Adidas Gazelle", 
+    price: 6900,
+image:"images/adifas gazelle.jpeg"
+},
+{ name: "New Balance 327",
+     price: 7600, 
+    image:"images/new balance 327.jpeg"
+    },
+{ name: "Converse Run Star",
+     price: 7400,
+    image:"images/converse run star.jpeg"
+    },
+{ name: "Vans Sk8-Hi",
+     price: 6300,
+    image:"images/vans sk8 hi.jpeg"
+    },
+{ name: "Reebok Zig Kinetica",
+     price: 8100, 
+    image:"images/reebok zig kinetica.jpeg"
+    },
+{ name: "Nike React Infinity", 
+    price: 8800,
+image:"images/nike react infinity.jpeg"
+}
 ];
 
 let cart = JSON.parse(localStorage.getItem("cart")) || [];
